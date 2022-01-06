@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true,
+    "esModuleInterop": true, // * as => import ~ from
     "sourceMap": true,
     "lib": ["ES2020", "DOM"],
     "jsx": "react",
@@ -11,6 +11,7 @@
     "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
+      // 절대경로
       "@hooks/*": ["hooks/*"],
       "@components/*": ["components/*"],
       "@layouts/*": ["layouts/*"],
